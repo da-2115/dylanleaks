@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Algebra 1/Study Plan.md",
+                "file": "Math/Algebra 1/Unit 8 - Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study Plan"
+              "title": "Unit 8 - Functions"
             }
           }
         ]
@@ -167,9 +167,9 @@
   },
   "active": "bd2d25b1cb2d6ed6",
   "lastOpenFiles": [
+    "Math/Algebra 1/Study Plan.md",
     "Math/Algebra 1/Unit 8 - Functions.md",
     "Math/Algebra 1/Unit 9 - Sequences.md",
-    "Math/Algebra 1/Study Plan.md",
     "Research/COS30023 - Languages In Software Development.md",
     "Research/Ideas and Findings.md",
     "SCSC/Speech.md",
