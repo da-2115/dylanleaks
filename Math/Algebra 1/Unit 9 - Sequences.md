@@ -17,3 +17,5 @@ Q2) What is the 4th value in the arithmetic sequence $a(n) = 4+5(n-1)$?
 
 Q3) What is the 5th value in the arithmetic sequence $\begin{cases}a(3) = 5\\a(n)=a(n-1)+16\end{cases}$ ?
 
+
+### Lesson 2 - Constructing arithmetic sequences
