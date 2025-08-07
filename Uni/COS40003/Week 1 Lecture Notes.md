@@ -1,0 +1,41 @@
+### Notes
+- Concurrent programming is a programming paradigm to support concurrent computing
+- Computing paradigms include:
+	- Concurrent computing
+	- Parallel computing
+	- Distributed computing
+	- Cluster computing
+	- Grid computing
+	- Cloud computing
+	- Fog/edge computing
+- Concurrent computing - is where (from the **observer's** PoV) where computing tasks are done simultaneously. 
+- Parallel computing - is where (from the **system's** PoV) where computing tasks are done simultaneously.
+- Concurrent computing was developed on a single processor, but can also apply to multiple processors.
+- Concurrent computing uses time sharing to schedule computing tasks; i.e. how to improve response time while ensuring fairness.
+- Concurrent computing also uses concurrency control mechanisms against race conditions, deadlocks.
+- Parallel computing is a type of computation in which many calculations or the execution of processes are carried out simultaneously.
+- In parallel computing, a computational task is typically broken down into several, often many, very similar subtasks that can be processed independently. 
+- Distributed computing does not have a single definition but has commonly agreed properties:
+	- There are several autonomous computers, each of which has its own local memory
+	- The computers communicate with each other via message passing
+- Rough way to classify concurrent systems as parallel or distributed:
+	- In parallel computing, all processors have access to shared memory to exchange information between processes.
+	- In distributed computing, each process has it's own private (distributed) memory by passing messages between the processors.
+- An example of parallel computing is a multi core CPU or GPU.
+- Distributed computing examples include:
+	- Cluster computing
+	- Grid computing
+- Cluster computing is when multiple computers of low-cost are connected via a fast LAN to provide high-performance computing power (but not always)
+
+### Questions
+- What is concurrent programming?
+- What is concurrent computing and how does it work?
+- What is parallel computing and how does it work?
+- What is the difference between concurrent and parallel computing?
+- What is time sharing?
+- What is distributed computing and how does it work?
+- How do we classify concurrent systems as parallel or distributed?
+- What are 2 examples of distributed computing?
+- What are 2 examples of parallel computing?
+- What is cluster computing?
+- 

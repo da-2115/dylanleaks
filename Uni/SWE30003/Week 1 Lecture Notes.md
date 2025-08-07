@@ -1,0 +1,116 @@
+### Notes
+- Software Development Activities
+	- Requirements Elicitation - Establish the needs of the customer
+	- Requirements Analysis - Model and specify the requirements ("what")
+	- Design - Model and specify a solution ("how")
+	- Implementation - Construct a solution in software
+	- Testing - Verify the solution against the requirements
+	- Maintenance - Repair defects/bugs and adapt the solution to new requirements
+- SWE30003 (Software Architecture and Design) focuses on Activities 2-4 (Requirements Analysis, Design & Implementation).
+- Why do we build Software Systems?
+	- To keep/retain customers
+	- To increase customer base
+	- To improve customer relationships
+	- To improve productivity/efficiency (within the team/organisation)
+	- Technology currently in use no longer support/outdated
+	- Changes in environment (legal, social)
+- Categories of Business Goals - Business goals fall into five broad categories (addresses some pain points)
+	- Reduce cost of ownership: development, maintenance, deployment, operation
+	- Improve the quality of the system(s) compared with it's predecessors with respect to performance, modifiability, security, reliability, etc.
+	- Improve the functionality/capabilities of the system compared to it's predecessor.
+	- Improve organisation's market position.
+	- Improve external confidence in the organisation or the system.
+	- NOTE: A particular system generally has more than one goal.
+- Many systems involve a variety of different stakeholders
+	- Customers
+	- Developers
+	- Users
+	- Managers
+- All of the stakeholders may have different views and priorities.
+- Different views and priorities can leading to conflicting goals.
+- Development approaches must be able to cater for different views and priorities.
+- The priority of goals needs to be specified
+	- Some goals are "nice to have" some you "need to have", some are "absolutely critical"
+	- Developers sometimes have to "push back" or have trade offs. Knowing priorities gives insights.
+- Source of goals also needs to be specified
+	- Some goals are inherent to the system being developed.
+	- Some goals are a result of market analysis.
+	- Some goals are arbitrary in the sense that they can cause problems.
+- Functional and non-functional requirements
+	- Functional requirements - describe system services or functions, for example:
+		- Compute sales tax on a purchase
+		- Update the database on the server
+		- Basically, **anything that can be directly expressed as code**
+	- Non-functional requirements (quality requirements is another name for this), for example:
+		- Reducing the cost of deployment cannot be directly expressed as code
+	- Domain requirements - stem from the application domain of a system
+		- May be functional or non-functional
+- Non-functional requirements
+	- Product Requirements - Specify that the delivered product must BEHAVE in a certain why (e.g. speed, reliability, etc)
+	- Organisational requirements - follows of organisational policy (e.g. process standards used)
+	- External requirements - Arise from factors which are external to the system and it's development process (e.g. interoperability requirements, legislative requirements, etc.)
+- Verification - Are we building the product right?
+	- Does it conform to the specification(s)?
+- Validation - Are we building the right product?
+	- Does it meet the stakeholder's expectations?
+- Requirements Verifiability
+	- Requirements must be written so they can be validated and objectively verified.
+	- Imprecise
+		- "The system should be **easy to use** by experienced controllers and should be organised in such a way that **user errors are minimised**"
+		- The two terms in bold are useless as specifications as they are too vague.
+	- Verifiable
+		- "Experienced controllers should be able to use all the system functions after a total of 2 hours training. After this training, the average number of errors made by experienced users should not exceed two per day"
+- Software Design
+	- Design vs Design
+		- Design is the creative process of transforming the problem into a solution.
+		- The design of a system determines a set of components and inter-component interfaces that satisfy a specified set of requirements.
+	- The Process of Decomposition
+		- Decomposition is a process that helps manage the complexity of a software system
+		- Starts with a high-level overview of the system
+		- Creating the low-level details of the features of the system in turn
+		- Stop when we are satisfied with the level of detail.
+		- Also known as **Divide and Conquer**
+- Models
+	-  A model is a simplification of reality
+	-  Models are created for better understanding of the problem, the domain or the system to built.
+	- A model can capture and represent
+		- Structure (static model)
+		- Behaviour (dynamic model)
+		- Examples of a model:
+			- Architectural blueprint of a house
+			- Hand-drawn UI screen/wire frame
+			- UML class diagram
+- Quality-Driven Design
+	- Quality Requirements are those that drive the structural design of a software system.
+	- Leads to questions, such as:
+		- How are the quality requirements
+			- Specified?
+			- Validated?
+			- Achieved?
+		- and how can understanding the impact of quality attributes be used during the design process?
+
+
+### Questions
+- What are the 6 software development activities?
+- Why do we build software systems? Give 6 reasons.
+- What is the requirements analysis activity of software development?
+- What is the design activity of software development?
+- What is the implementation activity of software development?
+- Who are 4 examples of stakeholders in a software system?
+- What are 5 categories of business goal categories?
+- Should development approaches cater for different views and priorities? Justify.
+- Why do business goals in a software system need to be prioritised? Justify and give reasons.
+- What is the difference between priority of goals and the source of goals? Justify.
+- What is the key difference between functional and non-functional requirements?
+- What is a functional requirement? Give an example.
+- What is a non-functional requirement? Give an example.
+- What are domain requirements?
+- What are the three types of requirements for non-functional requirements?
+- What is verification and validation? What is the difference?
+- What is meant by requirements verifiability?
+- What is software design?
+- What does decomposition mean in terms of a software system?
+- What is a model?
+- What is the purpose of a model?
+- Which of functional requirements or quality requirements have a bigger impact on the design structure of a software system?
+- What is quality driven design?
